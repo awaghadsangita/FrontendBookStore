@@ -1,0 +1,77 @@
+.orderTitle{
+    width: 100%;
+    font-size: 32px;
+    padding: 13px;
+    align-content: center;
+    text-align: center;
+    font-weight: 400;
+}
+.subOrder{
+    width: 50%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 14%;
+}
+.para{
+    width: 60%;
+    font-size: unset;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.details{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+    border: 1px solid gray;
+}
+.tableTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    height: 30%;
+}
+.subDetails{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 139px;
+    text-align: center;
+}
+.orderInfoParagraph{
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+.tableDiv{
+    width: 60%;
+    margin-bottom: 2%;
+}
+.table{
+    border: 1 solid grey;
+    border-radius:4px ;
+}
+.MuiTableCell-root {
+    display: table-cell;
+    padding: 16px;
+    font-size: 0.875rem;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border: 1px solid rgb(224, 224, 224);
+    letter-spacing: 0.01071em;
+    vertical-align: inherit;
+}
+.headerTableRow{
+    background-color:#ededed;
+}
+.button1{
+    margin:10px;
+}

@@ -1,0 +1,111 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+.upper{
+    width: 100%;
+    height: 30%;
+    background-color:#a03037;
+    display: flex;
+   
+    
+}
+.dashboard{
+    width: 80%;
+    height: 30%;
+    background-color:#a03037;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 10%;
+    font-size: fit-content;
+    margin: 2%;
+    color: white;
+    font-size: large;
+}
+.search{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    margin: 2%;
+    padding: 3px;
+    border-radius: 2px;
+}
+.subMain{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.lower{
+    width: 80%;
+    height: 100%;
+    margin-left: 15%;
+    }
+
+.card{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid lightgray;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.bookStore{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+#itemsCount{
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+.imageSpace{
+    width:100%;
+    background-color:#f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    color: #f5f5f5;
+    background-color: #a03037;
+    border: none;
+    margin-bottom: 2%;
+    cursor: grabbing;
+}
+.itemCounts{
+    color:#a03037;
+    background-color:#f5f5f5;
+    border-radius: 76%;
+    z-index: 100;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: -3px;
+    font-size: x-small;
+    font-style: normal;
+    padding-right: 12.005px;
+    width: 2px;
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+#sortByDropDown{
+    display: inline;
+    margin-left: 73%;
+}
